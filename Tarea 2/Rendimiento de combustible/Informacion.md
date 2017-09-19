@@ -1,0 +1,47 @@
+#    mpg  cylinders  displacement horsepower  weight  acceleration  model-year  
+#0  18.0          8         307.0        130    3504          12.0          70
+#1  15.0          8         350.0        165    3693          11.5          70
+#2  18.0          8         318.0        150    3436          11.0          70
+
+#   origin                   car-name
+#0       1  chevrolet chevelle malibu
+#1       1          buick skylark 320
+#2       1         plymouth satellite
+
+
+#<class 'pandas.core.frame.DataFrame'>
+#RangeIndex: 398 entries, 0 to 397
+#Data columns (total 9 columns):
+#mpg             398 non-null float64
+#cylinders       398 non-null int64
+#displacement    398 non-null float64
+#horsepower      398 non-null object
+#weight          398 non-null int64
+#acceleration    398 non-null float64
+#model-year      398 non-null int64
+#origin          398 non-null int64
+#car-name        398 non-null object
+#dtypes: float64(3), int64(4), object(2)
+#memory usage: 28.1+ KB
+#None
+
+
+#              mpg   cylinders  displacement       weight  acceleration  
+#count  398.000000  398.000000    398.000000   398.000000    398.000000
+#mean    23.514573    5.454774    193.425879  2970.424623     15.568090
+#std      7.815984    1.701004    104.269838   846.841774      2.757689
+#min      9.000000    3.000000     68.000000  1613.000000      8.000000
+#25%     17.500000    4.000000    104.250000  2223.750000     13.825000
+#50%     23.000000    4.000000    148.500000  2803.500000     15.500000
+#75%     29.000000    8.000000    262.000000  3608.000000     17.175000
+#max     46.600000    8.000000    455.000000  5140.000000     24.800000
+
+#       model-year      origin
+#count  398.000000  398.000000
+#mean    76.010050    1.572864
+#std      3.697627    0.802055
+#min     70.000000    1.000000
+#25%     73.000000    1.000000
+#50%     76.000000    1.000000
+#75%     79.000000    2.000000
+#max     82.000000    3.000000
