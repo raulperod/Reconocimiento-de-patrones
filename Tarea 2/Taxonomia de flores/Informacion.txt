@@ -16,6 +16,9 @@ dtypes: float64(4), object(1)
 memory usage: 5.9+ KB
 None
 
+# el conjunto de datos contiene 150 instancias
+# cuatro de las varibles con numericas y una de objeto(string) 
+
 
        sepal-length  sepal-width  petal-length  petal-width
 count    150.000000   150.000000    150.000000   150.000000
@@ -26,3 +29,7 @@ min        4.300000     2.000000      1.000000     0.100000
 50%        5.800000     3.000000      4.350000     1.300000
 75%        6.400000     3.300000      5.100000     1.800000
 max        7.900000     4.400000      6.900000     2.500000
+
+# Como todas las variables contienen un minimo mayor que cero
+# se intuye que no hay valores faltantes, cada variable contiene
+# su media, desviacion-estandar, etc.
