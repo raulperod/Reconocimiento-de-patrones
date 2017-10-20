@@ -1,2 +1,2 @@
 # Reconocimiento de patrones
-Tareas de la clase
+Ejercicios y tareas de la clase

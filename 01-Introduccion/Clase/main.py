@@ -1,4 +1,3 @@
-# ejemplo de las indias pimas
 import pandas as pd
 import os
 
