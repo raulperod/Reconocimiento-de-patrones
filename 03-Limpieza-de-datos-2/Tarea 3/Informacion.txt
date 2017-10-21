@@ -1,0 +1,15 @@
+# Tarea 3
+
+# 1
+# Analice los problemas de valores atípicos en el 
+# conjunto de datos Pima Indians Diabetes completo.
+
+# Realizando una imputacion con la mediana de las cinco variables que presentan valores faltantes
+# y analizando el diagrama de caja de cada uno. Solo la variable 'gl2h' no presenta valores atipicos,
+# 'imc' y 'pad' presentan pocos valores atipicos, pero 'ept' como 'is2h' presenta una gran cantidad 
+# de valores atipicos.
+
+# 2
+# Analice los problemas de valores faltantes y valores 
+# atípicos en los datos del ejemplo 2 (Rendimiento de combustible) 
+# y del ejemplo 3 (Taxonomís de flores).
