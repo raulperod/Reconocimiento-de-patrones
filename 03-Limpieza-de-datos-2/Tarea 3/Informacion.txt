@@ -4,12 +4,32 @@
 # Analice los problemas de valores atípicos en el 
 # conjunto de datos Pima Indians Diabetes completo.
 
-# Realizando una imputacion con la mediana de las cinco variables que presentan valores faltantes
-# y analizando el diagrama de caja de cada uno. Solo la variable 'gl2h' no presenta valores atipicos,
-# 'imc' y 'pad' presentan pocos valores atipicos, pero 'ept' como 'is2h' presenta una gran cantidad 
-# de valores atipicos.
+    # Realizando una imputacion con la mediana de las cinco variables que presentan valores faltantes
+    # y analizando el diagrama de caja de cada uno. Solo la variable 'gl2h' no presenta valores atipicos,
+    # 'imc' y 'pad' presentan pocos valores atipicos, pero 'ept' como 'is2h' presenta una gran cantidad 
+    # de valores atipicos.
 
 # 2
 # Analice los problemas de valores faltantes y valores 
 # atípicos en los datos del ejemplo 2 (Rendimiento de combustible) 
 # y del ejemplo 3 (Taxonomís de flores).
+
+    # Rendimiento de combustible
+
+        Porcentaje de datos nulos por columna
+        mpg 0.0
+        cylinders 0.0
+        displacement 0.0
+        horsepower 1.50753768844
+        weight 0.0
+        acceleration 0.0
+        model-year 0.0
+        origin 0.0
+        car-name 0.0
+
+        # Solo la variable horsepower presenta valores faltantes
+
+        # En cuanto a los valores atipicos, las variables 'cylinders', 'displacement' y 'weight'
+        # no presentarion valores atipicos.
+        # 'acceleration', 'horsepower' y 'mpg' presentan valores atipicos, 'mpg' presenta un valor atipico,
+        # 'horsepower' y 'acceleration' presentan varios valores atipicos
