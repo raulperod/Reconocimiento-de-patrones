@@ -1,12 +1,8 @@
 import numpy as np
 import pandas as pd
 import os
-from scipy.spatial import distance
 from matplotlib import pyplot as plt
 from scipy.cluster.hierarchy import dendrogram, linkage
-import warnings 
-
-warnings.filterwarnings("ignore")
 
 def single(df, numero_clusters):
     Z = linkage(df, 'single')
