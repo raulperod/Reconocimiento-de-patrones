@@ -36,8 +36,8 @@ if __name__ == '__main__':
     tree.export_graphviz(clf, out_file=dotfile, class_names=classes_names, feature_names=feats_names,
                             filled=False, rounded=True)
 
-    graph = pydotplus.graph_from_dot_data(dotfile.getvalue())
-    graph.write_png('arbol.png')    
+    #graph = pydotplus.graph_from_dot_data(dotfile.getvalue())
+    #graph.write_png('arbol.png')    
     #display(Image(graph.create_png()))
 
     predictions_test = clf.predict(test_features)
